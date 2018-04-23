@@ -1,0 +1,44 @@
+div{
+    display: flex;
+    background: #b1aeb373;
+ul{
+    display: flex;
+    width: 100em;
+        li{
+           padding:1em;
+           list-style-type: none;
+           font-size: 2em;
+           color: rgb(255, 0, 0);
+        }
+    }
+    img{
+        height: 6em;
+        margin-top: 1em;
+    }
+}
+$primary-color:#08ef3d;
+@mixin style {
+    color:$primary-color;
+ }
+
+
+.mainimg{
+    background-image: url('../assets/mainimg.jpg');
+    height:50em;
+    div{
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        display: grid;
+    }
+    h1{
+        @include style;
+        
+        
+    }
+    h2{
+        @include style;
+        
+        
+    }
+}
