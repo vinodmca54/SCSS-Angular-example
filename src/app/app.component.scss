@@ -32,7 +32,7 @@ $primary-color:#08ef3d;
         display: grid;
     }
     h1{
-        @include style;
+        color: red;
         
         
     }
@@ -41,4 +41,8 @@ $primary-color:#08ef3d;
         
         
     }
+}
+.foot{
+    background-color: aqua;
+    height: 4em;
 }
